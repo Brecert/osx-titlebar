@@ -1,0 +1,40 @@
+//META{"name":"TitleBar OSX","description":"Display a titlebar on the top of the Window for a better aesthetic. OSX.","author":"Brecert","version":"1.0.0"}*//{}
+
+/*-------------------Made by Beard Design-------------------------*/
+/*-----------Tweaked, Recoded and Remade by Brecert---------------*/
+.titlebar{
+    background:#212121;
+    height:40px!important;
+}
+
+.titlebar:after{
+    content:"Discord";
+    position:absolute;
+    top:13px;
+    right:40px;
+    font-weight:600;
+    color:#fff;
+    opacity:0.6
+}
+
+.titlebar:before{
+    content:url(https://discordapp.com/assets/1c8a54f25d101bdc607cec7228247a9a.svg);
+    position:absolute;
+    top:11px;
+    right:15px;
+    font-weight:600;
+    color:#fff;
+    opacity:0.6;
+    height:20px;
+    width:20px
+}
+
+.app{
+    margin-top:40px
+}
+
+.platform-osx .guilds-wrapper {
+    padding-top: 10px;
+}
+/*-------------------Made by Beard Design-------------------------*/
+/*-----------Tweaked, Recoded and Remade by Brecert---------------*/
